@@ -1,3 +1,3 @@
-# Assignment 8: Interactive Data Visualization
+# Assignment 8: Building Applications
 Description forthcoming....
 
