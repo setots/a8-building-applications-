@@ -8,7 +8,7 @@ The purpose of this assignment is to provide you with the opportunity to practic
 Assignment structure
 --------------------
 
-For this assignment, you will create a repository in which you build your own shiny application. The application should provide users with the ability to interact with a visual representation of a dataset. I suggest using the `iris` dataset, as it is simple and built into R, though feel free to explore a dataset of your choice. What the application looks like is up to you, as long as it meets the following requirements:
+For this assignment, you will create a repository in which you build your own shiny application. The application should provide users with the ability to interact with a visual representation of the `iris` dataset (more info below). What the application looks like is up to you, as long as it meets the following requirements:
 
 -   There is a `sidePanel` in which you've created **at least two widgets** that change the visual output in your application
 -   One of your widgets must **change the data that is being displayed**. For example, the attribute being shown on the x or y axis. Simply changing the color of the markers *would not* meet this requirement.
@@ -55,6 +55,13 @@ As in assignment 7, in this assignment, you'll initialize your own repository (*
 
 Once you've created your repository, you should create the necessary files (`ui.R`, `server.R`, and `Readme.md` to begin your project).
 
+Iris Dataset
+------------
+
+For this assignment, you'll be using the `iris` dataset, a simple dataset that is built into R. This dataset is often used to demonstrate the challenges of classification in statistics and visualization. Each of the 150 rows of this data is an observation of a flower, and the columns express different physical qualities of the flowers:
+
+![new-repo](imgs/dataset.png)
+
 Building the application
 ------------------------
 
@@ -66,7 +73,7 @@ In your `sidePanel`, you should create two widgets of your choice. As stated abo
 
 ### Visual representation
 
-The `mainPanel` of your application should contain a visual representation of the `iris` dataset (or a dataset of your choice). The visualization can be made with base R graphics, [plotly](https://plot.ly/r/), or something less supported but [more interesting](https://github.com/juba/scatterD3). While we don't expect you to create anything ground-breaking, we do expect you to create a clear visualization with proper labels. And of course, the graphic needs to react to changing values in the widgets.
+The `mainPanel` of your application should contain a visual representation of the `iris` dataset. The visualization can be made with base R graphics, [plotly](https://plot.ly/r/), or something less supported but [more interesting](https://github.com/juba/scatterD3). While we don't expect you to create anything ground-breaking, we do expect you to create a clear visualization with proper labels. And of course, the graphic needs to react to changing values in the widgets.
 
 Submission
 ----------
